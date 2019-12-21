@@ -1,2 +1,2 @@
-mongorestore -u admin -p leanote -h localhost -d leanote --dir /leanote_install_data
-mongo -u admin -p leanote 127.0.0.1:27017/admin /leanote.js
+mongorestore -u leanote -p leanote -h localhost -d leanote --dir /leanote_install_data
+mongo -u leanote -p leanote 127.0.0.1:27017/admin /leanote.js
